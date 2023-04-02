@@ -5,8 +5,8 @@ import './style/elements/base.css'
 import './style/settings/colors.css'
 import './style/settings/spacing.css'
 import Header from './components/Header'
-import Cartao from './objects/Cartao'
-import Jogador from './objects/Jogador'
+import Hashtag from './components/Hashtag'
+
 
 
 
@@ -15,9 +15,7 @@ import Jogador from './objects/Jogador'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    
-    <Header/> 
-    <Cartao/>
-    <Jogador player="x"/>
+    <Header />
+    <Hashtag/>
   </React.StrictMode>
 )

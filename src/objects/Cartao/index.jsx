@@ -1,7 +1,9 @@
 import React from "react"
 import './style.css'
-const Cartao = () =>(
-  <article className="cartao"></article>
+const Cartao = (props) =>(
+  <article className="cartao">
+    {props.children}
+  </article>
 )
 
 
