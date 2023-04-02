@@ -5,6 +5,7 @@ import './style/elements/base.css'
 import './style/settings/colors.css'
 import Sobre from './objects/Sobre'
 import Logo from './objects/Logo'
+import Menu from './objects/Menu'
 
 
 
@@ -12,8 +13,9 @@ import Logo from './objects/Logo'
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <>
-      <Logo/>
-      <Sobre/>
+      <Logo />
+      <Sobre />
+      <Menu />
     </>
   </React.StrictMode>
 )

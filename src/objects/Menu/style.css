@@ -1,0 +1,21 @@
+.menu {
+  display: block;
+  text-indent: -9999px;
+}
+
+.menu::after,
+.menu::before,
+.menu > .center {
+  content: " ";
+  display: block;
+  background-color: var(--color-fourth);
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 5px;
+}
+
+
+.menu::after{
+  margin-bottom: 0;
+}
