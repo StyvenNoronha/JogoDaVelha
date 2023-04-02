@@ -1,0 +1,18 @@
+.main {
+ text-align: center;
+}
+
+.main > .header{
+  width: 90vh;
+  margin: 0 auto 85px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main > .cartao {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 90vw;
+  height: 90vw;
+}
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import './main.css'
 import ReactDOM from 'react-dom/client'
 import './style/generic/reset.css'
 import './style/elements/base.css'
@@ -15,7 +16,9 @@ import Hashtag from './components/Hashtag'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header />
-    <Hashtag/>
+    <main className="main">
+      <Header />
+      <Hashtag />
+    </main>
   </React.StrictMode>
 )

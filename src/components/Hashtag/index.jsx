@@ -5,8 +5,35 @@ import "./style.css"
 
 const Hashtag = () => (
   <Cartao>
-    <Jogador player="x" />
-    <Jogador player="o" />
+    <ul className="hashtag">
+      <li className="item">
+        <Jogador player="o" />
+      </li>
+      <li className="item">
+        <Jogador player="x" />
+      </li>
+      <li className="item">
+        <Jogador player="o" />
+      </li>
+      <li className="item">
+        <Jogador player="x" />
+      </li>
+      <li className="item">
+        <Jogador player="x" />
+      </li>
+      <li className="item">
+        <Jogador player="o" />
+      </li>
+      <li className="item">
+        <Jogador player="x" />
+      </li>
+      <li className="item">
+        <Jogador player="o" />
+      </li>
+      <li className="item">
+        <Jogador player="x" />
+      </li>
+    </ul>
   </Cartao>
 )
 
