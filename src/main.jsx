@@ -6,6 +6,7 @@ import './style/settings/colors.css'
 import './style/settings/spacing.css'
 import Header from './components/Header'
 import Cartao from './objects/Cartao'
+import Jogador from './objects/Jogador'
 
 
 
@@ -17,5 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     
     <Header/> 
     <Cartao/>
+    <Jogador player="x"/>
   </React.StrictMode>
 )
