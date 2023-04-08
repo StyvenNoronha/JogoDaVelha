@@ -6,7 +6,7 @@ import './style.css'
 
 const Input = (props) => (
   
-    <input id={props.id} type={props.type} value={props.value} />
+    <input className="input" id={props.id} type={props.type} value={props.value} />
 
 )
 
