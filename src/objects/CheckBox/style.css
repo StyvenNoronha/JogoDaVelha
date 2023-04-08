@@ -5,11 +5,17 @@
   height: 20px;
   border: 2px solid var(--color-third);
   border-radius: 1px;
-
   background: var(--color-second);
 }
 
 .input:checked {
   background: var(--color-black);
   border: 2px solid var(--color-negative);
+}
+
+
+.div{
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }

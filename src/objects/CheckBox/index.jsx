@@ -7,13 +7,15 @@ import "./style.css"
 
 const CheckBox = (props) => (
   <>
-    <Input
-      type="checkbox"
-      id={props.id}
-      value={props.value}
-      content={props.content}
-    />
-    <Label htmlFor={props.id} content={props.content} />
+    <div className="div">
+      <Input
+        type="checkbox"
+        id={props.id}
+        value={props.value}
+        content={props.content}
+      />
+      <Label htmlFor={props.id} content={props.content} />
+    </div>
   </>
 )
 
