@@ -7,7 +7,7 @@ import Label from "../Label";
 
 const Input = (props) => (
   <>
-    <input id={props.id} type="checkbox" value={props.value} />
+    <input id={props.id} type={props.type} value={props.value} />
     <Label htmlFor={props.id} content={props.content} />
   </>
 )

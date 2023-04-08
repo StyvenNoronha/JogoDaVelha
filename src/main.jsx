@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <main className="main">
       <Header />
       <Hashtag />
-      <Input id="show" value="show" content="Mostrar Eventos" />  
+      <Input type="checkbox" id="show" value="show" content="Mostrar Eventos" />  
     </main>
   </React.StrictMode>
 )
