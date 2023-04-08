@@ -8,7 +8,8 @@ import './style/settings/spacing.css'
 import './style/settings/size.css'
 import Header from './components/Header'
 import Hashtag from './components/Hashtag'
-import Input from './objects/Input'
+import CheckBox from './objects/CheckBox'
+
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -16,7 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <main className="main">
       <Header />
       <Hashtag />
-      <Input type="checkbox" id="show" value="show" content="Mostrar Eventos" />  
+       <CheckBox id="show" value="show" content="Mostrar Eventos"/> 
     </main>
   </React.StrictMode>
 )
